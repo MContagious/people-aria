@@ -1,0 +1,29 @@
+// Requirement documentation for people-aria
+
+The site should be a single page app (develop with angular.js)
+
+^^1 Home Page
+  --> No navigation menu
+	--> a simple search form
+	--> detailed or just simple radio button
+^^2 Search result page
+	--> a simple search form -- should display top side of the page.
+	--> display results as requested detailed or simple
+	--> detailed result report
+		--> Show all possible filters in headers of the results
+	--> display just the uid, full name, avatar, email, reporting to and reporties count
+	
+^^3 reported or reporties page:
+	--> display the reporting hierarchy
+	--> don't display the reporties if it is requested only for reporting to link..
+
+^^4 The user page.
+	--> User page should contain all possible information.
+	--> The wall should be customizable by the user
+
+()5 The project should be easily extendended to post some comments 
+   and subscriptions on updates or wallposts by any other person.
+
+Development Tools:
+  Front End : Angular.js, Twisters Bootstrap, D3.js
+  Back End : node.js, express, connect and Couch Db
